@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* Desktop Nav Items */}
         <div className="hidden md:flex flex-grow justify-center space-x-5">
           <Link to="/" className=" transition">Home</Link>
-          <Link to="/story" className=" transition">About Us</Link>
+          <Link to="/Story" className=" transition">About Us</Link>
           <Link to="/Contact" className=" transition">Contact Us</Link>
         </div>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden shadow-md py-2 px-4 flex flex-col space-y-2">
           <Link to="/" className=" transition">Home</Link>
-          <Link to="/About" className=" transition">About Us</Link>
+          <Link to="/Story" className=" transition">About Us</Link>
           <Link to="/Contact" className=" transition">Contact Us</Link>
         </div>
       )}

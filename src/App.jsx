@@ -7,7 +7,6 @@ import Creations from './components/Creations';
 import Catalog from './components/Catalog';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
-import { Cat } from 'lucide-react';
 
 // Named export for LandingPage
 export const LandingPage = () => (
@@ -57,7 +56,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/story" element={<StoryPage />} />
+        <Route path="/Story" element={<StoryPage />} />
         <Route path="/Store" element={<StorePage />} />
         <Route path="/Contact" element={<ContPage />} />
       </Routes>

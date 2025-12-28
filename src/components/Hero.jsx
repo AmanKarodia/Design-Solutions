@@ -47,7 +47,7 @@ function Hero() {
           Design Solutions
         </h1>
 
-        <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-2xl max-w-3xl">
+        <p className="mt-6 text-white sm:mt-8 text-lg sm:text-xl md:text-2xl max-w-3xl">
           Crafting visually stunning and user-centric designs that elevate your
           brand and captivate your audience.
         </p>

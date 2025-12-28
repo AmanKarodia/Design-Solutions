@@ -11,7 +11,7 @@ function Footer() {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="hover:text-emerald-500"
+                  className="hover:text-emerald-500 "
                 >
                   {link.text}
                 </a>
@@ -20,13 +20,13 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="text-md text-blue-500 font-semibold mb-4">Social Media</h3>
+          <h3 className="text-md text-blue-500 font-semibold px-5 mb-4">Social Media</h3>
           <ul className="space-y-2">
             {platformLinks.map((link, index) => (
               <li key={index}>
                 <a
                   href={link.href}
-                  className="hover:text-emerald-500"
+                  className="hover:text-emerald-500 px-6"
                 >
                   {link.text}
                 </a>
