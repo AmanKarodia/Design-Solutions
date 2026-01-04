@@ -4,7 +4,15 @@ import exp3 from "../assets/exp-3.jpg";
 import vQQoZzKO9Ig from "../assets/mel-poole-vQQoZzKO9Ig-unsplash.jpg";
 import PH8GUKG from "../assets/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg";
 import Wr0TpKqf26s from "../assets/faith-yarn-Wr0TpKqf26s-unsplash.jpg";
-import { HardHat, ShoppingBag, Coffee, Car } from 'lucide-react';
+import exp4 from "../assets/exp-4.jpg";
+import exp5 from "../assets/exp-5.jpg";
+import exp6 from "../assets/exp-6.jpg"; 
+import exp7 from "../assets/exp-7.jpg";
+import exp8 from "../assets/exp-8.jpg";
+import exp9 from "../assets/exp-9.jpg";
+import exp10 from "../assets/exp-10.jpg";
+import exp11 from "../assets/exp-11.jpg";
+import { HardHat, ShoppingBag, Coffee, Car, Import } from 'lucide-react';
 
 export const expertise = [
   {
@@ -21,7 +29,55 @@ export const expertise = [
   },
   {
     image: exp3,
-    text: "Fast Turnaround",
+    text: "Islamic & Halal Labels",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp4,
+    text: "sublimation printing",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp5,
+    text: "Signage",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp6,
+    text: "Automotive stickers",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp7,
+    text: "Flyers & Brochures & Banners",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp8,
+    text: "Posters",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp9,
+    text: "Display stands",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp10,
+    text: "Custom sand blasting",
+    description:
+      "Quick production and delivery for small or large batches without compromising quality.",
+  },
+  {
+    image: exp11,
+    text: "Lazer cutting",
     description:
       "Quick production and delivery for small or large batches without compromising quality.",
   },
